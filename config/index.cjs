@@ -23,41 +23,8 @@ const USER_CONFIG = {
     // 这样配置的话，就会每次发送这句话
     { keyword: 'encourage_oneself', contents: '偶嗨哟~' },
     ],
-
-  USERS: [
-    {
-      // 想要发送的人的名字
-      name: '晴宝儿',
-      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oFfAE6a21PdddMlx98330TaTLcVQ',
-      // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'pfqDGsdUz3Xl8fGGOcSgGVA8dSa-DTu2SRT4J3Ma_I8',
-      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '10-17',
-      festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {
-          type: '*生日', name: '晴宝儿 农历', year: '1998', date: '08-27',
-        },
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '生日', name: '晴宝儿', year: '1998', date: '10-17',
-        },
-        {
-          type: '节日', name: '恋爱纪念日', year: '2024', date: '01-02',
-        },
-      ],
-      // 我们在一起已经有xxxx天了的配置
-      customizedDateList: [
-        // 在一起的日子
-        { keyword: 'love_day', date: '2017-01-02' },
-        // 结婚纪念日
-        { keyword: 'marry_day', date: '2025-05-20' },
-      ],
-    },
-  ],
   
-// 课程表相关配置
+  // 课程表相关配置
   // 如果courseSchedule不存在或者为空（null）则认为没有课程
   // 如果courseSchedule是一个数组，则认为不区分单双周，直接填写星期几对应的课表数据即可
   // 如果courseSchedule是一个对象（如下面所示）
@@ -129,7 +96,40 @@ const USER_CONFIG = {
       ]
     }
   },
-},    
+},
+
+  USERS: [
+    {
+      // 想要发送的人的名字
+      name: '晴宝儿',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'oFfAE6a21PdddMlx98330TaTLcVQ',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: 'pfqDGsdUz3Xl8fGGOcSgGVA8dSa-DTu2SRT4J3Ma_I8',
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '10-17',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '晴宝儿 农历', year: '1998', date: '08-27',
+        },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '晴宝儿', year: '1998', date: '10-17',
+        },
+        {
+          type: '节日', name: '恋爱纪念日', year: '2024', date: '01-02',
+        },
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2017-01-02' },
+        // 结婚纪念日
+        { keyword: 'marry_day', date: '2025-05-20' },
+      ],
+    },
+  ],    
   
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
