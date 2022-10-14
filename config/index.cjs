@@ -22,6 +22,7 @@ const USER_CONFIG = {
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
     { keyword: 'encourage_oneself', contents: '偶嗨哟~' },
+    ],
 
   USERS: [
     {
