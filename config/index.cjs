@@ -179,7 +179,8 @@ const USER_CONFIG = {
       id: 'oFfAE6SavUbRZNLHccce-Qie2QvQ',
     }
   ],
-
+// 默认的课表配置
+  COURSE_SCHEDULE: null
 }
 
 module.exports = USER_CONFIG
