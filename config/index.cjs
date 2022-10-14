@@ -23,6 +23,8 @@ const USER_CONFIG = {
     // 这样配置的话，就会每次发送这句话
     { keyword: 'encourage_oneself', contents: '偶嗨哟~' },
     ],
+  // 学生课表
+  courseSchedule: true,
 
   // 课程表相关配置
   // 如果courseSchedule不存在或者为空（null）则认为没有课程
@@ -90,20 +92,6 @@ const USER_CONFIG = {
     }
   },
 },
-    {
-      name: '老婆1',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
-      courseSchedule: null
-    },
-  
   
   USERS: [
     {
