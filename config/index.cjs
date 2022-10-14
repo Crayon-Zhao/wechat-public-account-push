@@ -92,6 +92,48 @@ const USER_CONFIG = {
     }
   },
 },
+{
+  name: '老婆1',
+  id: '',
+  useTemplateId: '',
+  province: '',
+  city: '',
+  horoscopeDate: '',
+  horoscopeDateType: '',
+  openUrl: 'https://wangxinleo.cn',
+  festivals: [],
+  customizedDateList: [],
+  courseSchedule: null
+},
+{
+  name: '老婆2',
+  id: '',
+  useTemplateId: '',
+  province: '',
+  city: '',
+  horoscopeDate: '',
+  horoscopeDateType: '',
+  openUrl: 'https://wangxinleo.cn',
+  festivals: [],
+  customizedDateList: [],
+  courseSchedule: null
+},
+{
+  name: '老婆3',
+  id: '',
+  useTemplateId: '',
+  province: '',
+  city: '',
+  horoscopeDate: '',
+  horoscopeDateType: '',
+  openUrl: 'https://wangxinleo.cn',
+  festivals: [],
+  customizedDateList: [],
+  courseSchedule: null
+}
+  // 你可以不断按格式往下增加
+  // ...
+],
   
   USERS: [
     {
