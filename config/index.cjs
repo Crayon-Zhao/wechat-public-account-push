@@ -138,7 +138,7 @@ const USER_CONFIG = {
       openUrl: 'https://baidu.com',
       festivals: [],
       customizedDateList: [],
-      courseSchedule: []
+      courseSchedule: null
     }
   ],
       
