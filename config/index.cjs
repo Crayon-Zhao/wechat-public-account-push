@@ -23,8 +23,6 @@ const USER_CONFIG = {
     // 这样配置的话，就会每次发送这句话
     { keyword: 'encourage_oneself', contents: '偶嗨哟~' },
     ],
-  // 学生课表
-  courseSchedule: true,
   
   USERS: [
     {
@@ -56,7 +54,7 @@ const USER_CONFIG = {
         // 结婚纪念日
         { keyword: 'marry_day', date: '2025-05-20' },
       ],
-    },
+    
     // 课程表相关配置
       // 如果courseSchedule不存在或者为空（null）则认为没有课程
       // 如果courseSchedule是一个数组，则认为不区分单双周，直接填写星期几对应的课表数据即可
@@ -161,10 +159,11 @@ const USER_CONFIG = {
       festivals: [],
       customizedDateList: [],
       courseSchedule: null
-    }
+    },
     // 你可以不断按格式往下增加
     // ...
-  ],
+ },
+],
       
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
@@ -177,8 +176,6 @@ const USER_CONFIG = {
       id: 'oFfAE6SavUbRZNLHccce-Qie2QvQ',
     }
   ],
-// 默认的课表配置
-  COURSE_SCHEDULE: null
 }
 
 module.exports = USER_CONFIG
