@@ -17,7 +17,7 @@ const USER_CONFIG = {
   CITY: '宣城',
   
   //土味情话
-  earthyLoveWords:false,
+  earthyLoveWords:true,
 
   USERS: [
     {
