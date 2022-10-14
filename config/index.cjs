@@ -18,6 +18,10 @@ const USER_CONFIG = {
   
   //土味情话
   earthyLoveWords:true,
+  
+  SLOT_LIST: [
+    // 这样配置的话，就会每次发送这句话
+    { keyword: 'encourage_oneself', contents: '偶嗨哟~' },
 
   USERS: [
     {
@@ -32,14 +36,14 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '晴宝农历', year: '1998', date: '08-27',
+          type: '*生日', name: '晴宝儿 农历', year: '1998', date: '08-27',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '晴宝', year: '1998', date: '10-17',
+          type: '生日', name: '晴宝儿', year: '1998', date: '10-17',
         },
         {
-          type: '节日', name: '相识纪念日', year: '2024', date: '01-02',
+          type: '节日', name: '恋爱纪念日', year: '2024', date: '01-02',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
