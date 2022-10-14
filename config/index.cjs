@@ -28,14 +28,7 @@ const USER_CONFIG = {
   // 如果courseSchedule不存在或者为空（null）则认为没有课程
   // 如果courseSchedule是一个数组，则认为不区分单双周，直接填写星期几对应的课表数据即可
   // 如果courseSchedule是一个对象（如下面所示）
-  courseSchedule: {
-    // 单双周的基准
-    benchmark: {
-      // 这里设置一个日期，用来作为判断课表是否单双周的依据
-      date: '2022-10-13',
-      // 该日期是否为单周
-      isOdd: true
-    },
+  courseSchedule: [
     // 课表
     courses: {
       // 单周课表
@@ -84,19 +77,8 @@ const USER_CONFIG = {
           '19:00-20:30 刷题'
         ],
       ],
-      // 双周课表
-      even: [
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        []
-      ]
-    }
-  },
-},
+    },
+  ],
 
   USERS: [
     {
